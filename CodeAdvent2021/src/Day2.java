@@ -8,7 +8,7 @@ import java.io.*;
 
 public class Day2 {
     public static void main(String[] args) throws IOException {
-        File file = new File("src/inputDay2");
+        File file = new File("src/Resources/inputDay2");
         FileInputStream fis = new FileInputStream(file);
         BufferedReader in = new BufferedReader(new InputStreamReader(fis));
 

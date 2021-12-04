@@ -1,8 +1,14 @@
+/*
+Day 4: Giant Squid
+
+https://adventofcode.com/2021/day/4
+*/
+
 import java.io.*;
 
 public class Day4 {
     public static void main(String[] args) throws IOException {
-        File file = new File("src/inputDay4");
+        File file = new File("src/Resources/inputDay4");
         FileInputStream fis = new FileInputStream(file);
         BufferedReader in = new BufferedReader(new InputStreamReader(fis));
 
@@ -117,6 +123,8 @@ public class Day4 {
                         }
                         minScore = unmarkedSum * Integer.parseInt(drawNumbers[drawCount]);
                     }
+
+                    // Part 2
 
                     boolean newMax = false;
 

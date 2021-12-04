@@ -1,10 +1,15 @@
+/*
+Day 3: Binary Diagnostic
+
+https://adventofcode.com/2021/day/3
+*/
+
 import java.io.*;
-import java.net.URL;
 import java.util.ArrayList;
 
 public class Day3 {
     public static void main(String[] args) throws IOException {
-        File file = new File("src/inputDay3");
+        File file = new File("src/Resources/inputDay3");
         FileInputStream fis = new FileInputStream(file);
         BufferedReader in = new BufferedReader(new InputStreamReader(fis));
 
