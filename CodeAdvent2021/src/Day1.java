@@ -8,8 +8,7 @@ import java.io.*;
 
 public class Day1 {
     public static void main(String[] args) throws IOException {
-        String input = File.separator + "C:\\Users\\willi\\IdeaProjects\\CodeAdvent2021\\src\\inputDay1";
-        File file = new File(input);
+        File file = new File("src/inputDay1");
         FileInputStream fis = new FileInputStream(file);
         BufferedReader in = new BufferedReader(new InputStreamReader(fis));
 

@@ -1,10 +1,10 @@
 import java.io.*;
+import java.net.URL;
 import java.util.ArrayList;
 
 public class Day3 {
     public static void main(String[] args) throws IOException {
-        String input = File.separator + "C:\\Users\\willi\\IdeaProjects\\CodeAdvent2021\\src\\inputDay3";
-        File file = new File(input);
+        File file = new File("src/inputDay3");
         FileInputStream fis = new FileInputStream(file);
         BufferedReader in = new BufferedReader(new InputStreamReader(fis));
 
@@ -12,7 +12,6 @@ public class Day3 {
 
         /*
         // Part 1
-        // Testing Overwrite
 
         int lineCount = 0;
         int [] tokenCounter = new int[0];
