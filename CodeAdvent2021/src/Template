@@ -1,0 +1,22 @@
+/*
+Day #:
+
+https://adventofcode.com/2021/day/#
+*/
+
+// TO-DO: Replace all # with day number, fill in title
+
+public class Day# {
+    public static void main(String[] args) throws IOException {
+        File file = new File("src/Resources/inputDay#");
+        FileInputStream fis = new FileInputStream(file);
+        BufferedReader in = new BufferedReader(new InputStreamReader(fis));
+
+        String aLine = null;
+
+
+        while ((aLine = in.readLine()) != null) {
+
+        }
+    }
+}
